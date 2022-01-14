@@ -1,0 +1,68 @@
+section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 30rem;
+  height: 60%;
+  background-color: #f8ceec;
+  background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
+  border-radius: 1rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  font-size: 2rem;
+  align-self: center;
+  color: white;
+  letter-spacing: 0.1rem;
+}
+.p-header {
+  width: 100%;
+
+  height: 4rem;
+  position: relative;
+  margin-bottom: 1rem;
+}
+.p-header input {
+  background-image: linear-gradient(15deg, #f9c1b1 0%, #fb8085 74%);
+  border: none;
+}
+#password {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+#copy {
+  position: absolute;
+  bottom: 0.2rem;
+  right: 0.2rem;
+  border: none;
+  color: rgba(0, 0, 0, 0.6);
+  padding: 4px 8px;
+  cursor: pointer;
+}
+.form-field {
+  padding: 1rem 0;
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#submit {
+  margin-top: 2rem;
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  font-size: 1.2rem;
+  color: rgba(0, 0, 0, 0.7);
+  background-color: #f9c1b1;
+  background-image: linear-gradient(315deg, #f9c1b1 0%, #fb8085 74%);
+}
+label {
+  font-size: 1.1rem;
+}
